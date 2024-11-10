@@ -1,6 +1,5 @@
-streamlit
-transformers
-torch
-scikit-learn
-nltk
-pandas
+transformers==4.32.0
+torch==2.0.0
+scikit-learn==1.2.2
+nltk==3.8.1
+pandas==2.0.3
