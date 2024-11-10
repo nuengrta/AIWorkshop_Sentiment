@@ -3,6 +3,11 @@
 import streamlit as st
 from transformers import pipeline
 
+st.title("Testing App")
+
+st.write("If this message displays, the app is working.")
+
+
 # Load the sentiment analysis model
 model_name = "poom-sci/WangchanBERTa-finetuned-sentiment"
 sentiment_analyzer = pipeline('sentiment-analysis', model=model_name)
